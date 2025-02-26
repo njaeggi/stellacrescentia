@@ -1,0 +1,152 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar-nav .nav-link, .navbar-brand {
+    font-size: 16px;
+}
+
+.navbar-nav .nav-link.active {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.navbar {
+    height: 80px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    right: 30px;
+    font-size: 100%;
+    color: inherit;
+    left: 0;
+    color: inherit;
+    padding: 10px 30px;
+
+    .nav-link {
+        color: black;
+    }
+
+    .nav {
+        font-size: 120%;
+    }
+}
+
+.f-img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.banner {
+    height: 100vh;
+    background-image: url('../images/hair.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.h-fit-content {
+    height: fit-content;
+}
+
+.btn-outline-primary {
+  color: black;
+  border-color: black;
+}
+
+
+
+
+.slideshow {
+    padding-bottom: 100px;
+  }
+  
+.slideshow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.slides {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.active-slide {
+  display: block;
+}
+
+.dots-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  background-color: #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active-dot {
+  background-color: #333;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(265, 265, 265, 0.75);
+  color: #000000;
+  border: none;
+  font-size: 18px;
+  padding: 10px 14px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.arrow:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
+
+.mb-more {
+  margin-bottom: 8rem !important;
+}
+
+.mt-more {
+  margin-top: 6rem !important;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.gi {
+  font-size: 30px;
+}
