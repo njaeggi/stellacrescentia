@@ -10,16 +10,49 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/loadPartials.js"></script>
+    <script src="js/slider.js"></script>
 </head>
 <body>
-    <div data-include="partials/nav.html" data-page="index" data-navbar-color="bg-white"></div>
+    <div data-include="partials/nav.html" data-page="shop" data-navbar-color="bg-white"></div>
     <div data-include="partials/banner.html"></div>
 
     <div class="row container-sm ms-auto me-auto mb-more">
-        <h1 class="ps-5 pt-5">Shop</h1>
-        <p class="p-5">
-            I will introduce a webshop in the fututre, for now, if you are interested you can contact me on Instagram or per Email for a shirt.
-        </p>        
+        <h1 class="ps-5 pt-5 mb-5">Shop</h1>
+        <div class="slideshow col-12 col-lg-6">
+            <div class="slideshow-container">
+                <img src="/images/where-hair-ends-clothing-begins/shirt/DSC_0390.jpg" class="slides active-slide">
+                <img src="/images/where-hair-ends-clothing-begins/shirt/DSC_0398.jpg" class="slides">
+                <img src="/images/where-hair-ends-clothing-begins/shirt/DSC_0400.jpg" class="slides">
+                <img src="/images/where-hair-ends-clothing-begins/shirt/DSC_0409.jpg" class="slides">
+                <img src="/images/where-hair-ends-clothing-begins/shirt/DSC_0422.jpg" class="slides">
+
+                <button class="arrow left">&#8249;</button>
+                <button class="arrow right">&#8250;</button>
+            </div>
+
+            <div class="dots-container">
+                <span class="dot active-dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6">
+            <h4>Very hairy T-Shirts</h4>
+            <p class="fw-bolder">Details:</p>
+            <ul>
+                <li>Bow Back Print</li>
+                <li>Set-in sleeves</li>
+                <li>1x1 rib at neckline</li>
+                <li>Inside neck band made of the same material</li>
+                <li>Double-needle chain stitch on cuffs and hem</li>
+            </ul>
+            <p class="fw-bolder">Material:</p>
+            <p>Loosely knitted singlejersey, 100% Cotton</p>
+            <p class="fw-bolder">Interested?</p>
+            <p>Contact me per E-Mail or by my Social Media</p>
+        </div>  
     </div>
 
     <div data-include="partials/footer.html"></div>

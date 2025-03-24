@@ -43,15 +43,11 @@ body {
 
 .banner {
     height: 100vh;
-    background-image: url('../images/hair.jpeg');
+    background-image: url('../images/CCI08022025.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-.h-fit-content {
-    height: fit-content;
 }
 
 .btn-outline-primary {
@@ -149,4 +145,8 @@ a {
 
 .gi {
   font-size: 30px;
+}
+
+.image-container {
+  columns: 2;
 }
